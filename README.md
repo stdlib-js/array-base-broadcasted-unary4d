@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import bunary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-unary4d@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-broadcasted-unary4d/tags). For example,
+
+```javascript
 import bunary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-unary4d@v0.1.0-deno/mod.js';
 ```
 
@@ -103,7 +108,7 @@ var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-bas
 import filled4dBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled4d-by@deno/mod.js';
 import zeros4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros4d@deno/mod.js';
 import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@deno/mod.js';
-import bunary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-unary4d@v0.1.0-deno/mod.js';
+import bunary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-unary4d@deno/mod.js';
 
 var shapes = [
     [ 1, 1, 1, 3 ],
